@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Ogden Yoga Festival :: {{page-name}}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/main.css">
+        <script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>
+        <script language="javascript" src="/lib/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Ogden Yoga Fest</h1>
+            <a href="/">
+                <img id="big-logo" src="/img/logo.jpg" alt="Yoga Fest logo">
+                <img id="inline-logo" src="/img/logo-inline.jpg" alt="Yoga Fest logo">
+                <img id="small-inline-logo" src="/img/logo-inline-small.jpg" alt="Yoga Fest logo">
+            </a>
+            <div id="menu-button">&#9776;</div>
+            <nav id="main-nav" role="navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/schedule">Schedule</a></li>
+                    <li><a href="/teachers">Teachers</a></li>
+                    <li><a href="/tickets">Tickets</a></li>
+                    <li><a href="/location">Location</a></li>
+                    <li><a href="/contribute">Contribute</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main role="main">
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        <footer>
+            <div id="contact-info" class="footer-group">
+                <span class="bold">Ogden Yoga Festival</span><br>
+                Located at the<br>
+                Weber State Wildcat Center<br>
+                3848 Harrison Blvd.<br>
+                Ogden, Utah 84408<br>
+                <div id="mobile">
+                    <a href="tel:801-626-6000">801-626-6000</a><br>
+                    <a href="tel:800-848-7700">Toll-free 1-800-848-7700</a>
+                </div>
+                <div id="desktop">
+                    801-626-6000<br>
+                    Toll-free 1-800-848-7700
+                </div>
+            </div>
+            <nav id="footer-nav" role="navigation">
+                <div class="footer-group">
+                    <h3>Festival</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/teachers">Teachers</a></li>
+                        <li><a href="/tickets">Tickets</a></li>
+                        <li><a href="/schedule">Schedule</a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-group">
+                    <h3>Plan</h3>
+                    <ul>
+                        <li><a href="/lodging">Lodging</a></li>
+                        <li><a href="/location">Location</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-group">
+                    <h3>Contribute</h3>
+                    <ul>
+                        <li><a href="/be-a-vendor">Be a Vendor</a></li>
+                        <li><a href="/volunteer">Volunteer</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="copyright">Copyright &copy; 2011-{{copyright|this-year}}</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+            <div id="content">
+                <h2>{{teacher.name}}</h2>
+                <img id="teacher-image" src="/img/{{teacher.image}}">
+                <div id="teacher-detals">
+                    <h3>Bio</h3>
+                    <p>{{teacher.bio|safe}}</p>
+
+                    <h3 id="teacher-classes">Classes</h3>
+                    <table>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Class</th>
+                            <th>Room</th>
+                        </tr>
+                        {% for class in classes %}
+                        <tr class="{% cycle white grey %}">
+                            <td>{{class.day}}</td>
+                            <td>{{class.time}}</td>
+                            <td>{{class.name}}<br><span class="small-italic">({{class.comment}})</span></td>
+                            <td>{{class.room}}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+{% endblock %}

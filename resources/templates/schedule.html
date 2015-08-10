@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+            <div id="content">
+                <h2>2015 Schedule</h2>
+                <h3>{{day-1}}</h3>
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Class</th>
+                        <th>Teacher</th>
+                        <th>Room</th>
+                    </tr>
+                    {% for class in day-1-classes %}
+                    <tr class="{{class.row-color}}">
+                        <td>{{class.time}}</td>
+                        <td>{{class.name}}<br><span class="small-italic">({{class.comment}})</span></td>
+                        <td>{{class.teacher}}</td>
+                        <td>{{class.room}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+
+                <h3>{{day-2}}</h3>
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Class</th>
+                        <th>Teacher</th>
+                        <th>Room</th>
+                    </tr>
+                    {% for class in day-2-classes %}
+                    <tr class="{{class.row-color}}">
+                        <td>{{class.time}}</td>
+                        <td>{{class.name}}<br><span class="small-italic">({{class.comment}})</span></td>
+                        <td>{{class.teacher}}</td>
+                        <td>{{class.room}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+{% endblock%}

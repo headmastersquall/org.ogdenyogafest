@@ -1,0 +1,506 @@
+/*
+gold=#d19100
+red=#96373f
+dark-grey=#544e46
+light-grey=#eeeeee
+*/
+
+/*
+ * Global settings
+ */
+
+header, main, nav, footer {
+    display:block;
+}
+
+body {
+    /*font-family:Verdana, Arial, sans-serif;*/
+    font-family:Arial, helvetica, sans-serif;
+    margin:0 auto;
+    max-width:1024px;
+    min-width:320px;
+    box-shadow:0px 0px 8px #777;
+}
+
+a {
+    text-decoration:none;
+    color:#544e46;
+}
+
+ul {
+    list-style-type:none;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+h2 {
+    color:#96373f;
+    font-family:Times New Roman, serif;
+}
+
+h3 {
+    color:#544e46;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+/*
+ * Header Section
+ */
+
+#inline-logo {
+    display: none;
+}
+
+#small-inline-logo {
+    padding-top:.6em;
+    display:none;
+}
+
+#menu-button {
+    display:none;
+}
+
+header {
+    width:100%;
+    background-color:#96373f;
+    height:235px;
+}
+
+header {
+    text-align:center;
+}
+
+header h1 {
+    position:absolute;
+    top:-999em;
+    left:-999em;
+}
+
+#main-nav {
+    font-family:Arial, Verdana;
+    background-color:#d19100;
+    margin:0 .9em;
+    height:35px;
+    box-shadow:3px 3px 8px #330000;
+}
+
+#main-nav a:link, a:visited {
+    width:13%;
+    height:28px;
+    padding-top:7px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+#main-nav a:hover, a:active {
+    background-color:#96373f;
+    color:#d19100;
+}
+
+nav ul {
+    padding-left:0;
+    text-align:center;
+    margin-top:2px;
+}
+
+nav li {
+    display:inline;
+}
+
+/*
+ * Slideshow
+ */
+
+.hidden {
+    display:none;
+}
+
+#slideshow-list {
+    margin:0 auto;
+    padding:0;
+    list-style-type:none;
+    position:relative;
+}
+
+#slideshow-list span {
+    position:absolute;
+    right:2%;
+    top:90%;
+    padding: 7px 20px;
+    color:#eeeeee;
+    background:#000;
+    background:rgba(0,0,0,0.75);
+    font-size:1em;
+}
+
+/*
+ * Main Body
+ */
+
+main {
+    background-color:#eeeeee;
+}
+
+main a {
+    color:#96373f;
+}
+
+main a:hover, a:active {
+    text-decoration:underline;
+}
+
+#content {
+    padding:20px;
+}
+
+#content:after {
+    content:".";
+    visibility:hidden;
+    display:block;
+    height:0;
+    clear: both;
+}
+
+/*
+ * Error page
+ */
+
+#error-image {
+    padding-right:1em;
+}
+
+#error-image img {
+    border-radius:10px;
+}
+
+#error-image a {
+    font-size:.8em;
+    color:#777;
+}
+
+/*
+ * Schedule table
+ */
+
+table {
+    width:95%;
+    margin:auto;
+    border-collapse:collapse;
+    border:1px solid #544e46;
+}
+
+td, th {
+    padding:0.5em;
+}
+
+th {
+    text-align:left;
+}
+
+.grey {
+    background-color:#dddddd;
+}
+
+.white {
+    background-color:#FFFFFF;
+}
+
+.small-italic {
+    font-style:italic;
+    font-size:small;
+}
+
+/*
+ * Teachers
+ */
+
+.teacher-thumb-box {
+    width:202px;
+    height:275px;
+    text-align:center;
+    margin-left:10%;
+    float:left;
+}
+
+.teacher-thumb-box img {
+    border-radius:50%;
+    box-shadow:3px 4px 8px #777;
+}
+
+.teacher-thumb-box a {
+    margin:0;
+    font-size:1.3em;
+}
+
+.teacher-thumb-box p {
+    margin-top:4px;
+    font-size:0.8em;
+    font-weight:bold;
+    color:#544e46;
+}
+
+#teacher-image {
+    float:left;
+    margin-right:1em;
+    margin-bottom:1.5em;
+    border-radius:5%;
+    box-shadow:3px 4px 8px #777;
+}
+
+#teacher-detals h3 {
+    line-height:0;
+}
+
+#teacher-classes {
+    clear:both;
+}
+
+/*
+ * Tickets page
+ */
+
+#ticket-note {
+    margin-left:2em;
+}
+
+.ticket-box {
+    border:2px solid #544e46;
+    border-radius:8px;
+    width:15em;
+    height:13em;
+    margin:1em 2em;
+    padding-top:1em;
+    text-align:center;
+    float:left;
+}
+
+.ticket-box p {
+    font-weight:bold;
+    font-size:1.1em;
+    margin:0 0 10px 0;
+}
+
+#price {
+    line-height:1.5;
+    font-size:3.5em;
+    color:#96373f;
+}
+
+.ticket-box button {
+    padding:1em;
+    margin-top:.7em;
+}
+
+/*
+ * Contact Us
+ */
+
+#errors {
+    list-style:disc;
+    color:red;
+    margin-left:6em;
+}
+
+#contact-us {
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+label {
+    float:left;
+    display:block;
+    width:7em;
+    padding-right:10px;
+}
+
+input, textarea {
+    display:block;
+    margin-bottom:.4em;
+}
+
+textarea {
+    height:15em;
+    width:35em;
+}
+
+#submit {
+    margin-left:9em;
+}
+
+/*
+ * Footer Section
+ */
+
+footer {
+    background-color:#544e46;
+    color:#eeeeee;
+    overflow:hidden;
+    font-size:.8em;
+    clear:both;
+}
+
+footer h3 {
+    text-decoration:underline;
+    white-space:nowrap;
+}
+
+footer a:hover {
+    text-decoration:underline;
+}
+
+#contact-info {
+    width:220px;
+}
+
+.footer-group {
+    float:left;
+    width:14%;
+    padding:20px 1.4em;
+}
+
+#mobile {
+    display:none;
+}
+
+footer h3 {
+    color:#eeeeee;
+    margin:5px 0 0 0;
+}
+
+footer a {
+    color:#eeeeee;
+}
+
+#footer-nav ul {
+    float:left;
+    width:200px;
+}
+
+#footer-nav li {
+    display:block;
+    text-align:left;
+}
+
+#copyright {
+    font-size:.70em;
+    font-style:italic;
+    clear:both;
+    display:block;
+    text-align:center;
+    height:18px;
+}
+
+/*
+ * Tablet Display
+ */
+@media only screen and (max-width: 1024px) {
+    #big-logo {
+        display:none;
+    }
+
+    #inline-logo {
+        display:inline;
+    }
+
+    header {
+        text-align:left;
+        height:59px;
+    }
+
+    #menu-button {
+        display:block;
+        position:absolute;
+        top:.8em;
+        right:.8em;
+        font-size:1em;
+        background-color:#d19100;
+        color:#544e46;
+        border-radius:6px;
+        padding:6px 8px;
+    }
+
+    #menu-button:hover {
+        cursor:pointer;
+    }
+
+    #main-nav {
+        width:100%;
+        height:253px;
+        margin:0;
+        padding:0;
+        border-radius:0px;
+        box-shadow:0px 0px 0px #FFF;
+        display:none;
+        position:absolute;
+        z-index:1;
+        opacity:.95;
+    }
+
+    #main-nav li {
+        text-align:left;
+    }
+
+    #main-nav a:link, a:visited {
+        width:100%;
+        font-size:1.2em;
+        border-bottom:1px solid #000;
+    }
+
+    body {
+        box-shadow:0px 0px 0px #FFF;
+    }
+}
+
+/*
+ * Mobile Display
+ */
+@media only screen and (max-width: 768px) {
+    #slideshow {
+        display:none;
+    }
+
+    #contact-info {
+        width:100%;
+        text-align:center;
+        padding:20px 0;
+    }
+
+    #mobile {
+        display:inline;
+    }
+
+    #mobile a {
+        color:#d19100;
+    }
+
+    #desktop {
+        display:none;
+    }
+
+    .footer-group {
+        width:17%;
+        padding:1em 6%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #teacher-image {
+        float:none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #inline-logo {
+        display:none;
+    }
+
+    #small-inline-logo {
+        display:inline;
+    }
+}

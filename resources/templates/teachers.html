@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+            <div id="content">
+                <h2>Teachers</h2>
+                {% for teacher in teachers %}
+                <div class="teacher-thumb-box">
+                    <a href="/teacher/{{teacher.name|web-name}}">
+                        <img src="/img/{{teacher.image|thumb}}" alt="{{teacher.name}}">
+                        {{teacher.name}}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+{% endblock %}
