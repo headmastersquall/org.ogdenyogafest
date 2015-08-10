@@ -8,8 +8,10 @@
                  [ring/ring-defaults "0.1.2"]
                  [ring/ring-jetty-adapter "1.4.0"]
                  [com.draines/postal "1.11.3"]
-                 [clj-time "0.9.0"]]
-  :plugins [[lein-ring "0.8.13"]]
+                 [clj-time "0.9.0"]
+                 [environ "1.0.0"]]
+  :plugins [[lein-ring "0.8.13"]
+            [lein-environ "1.0.0"]]
   :ring {:handler org.ogdenyogafest.handler/app}
   :main org.ogdenyogafest.jetty
   :profiles

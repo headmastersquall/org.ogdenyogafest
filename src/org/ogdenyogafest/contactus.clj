@@ -1,10 +1,11 @@
 (ns org.ogdenyogafest.contactus
-  (:require [postal.core :refer [send-message]]))
+  (:require [postal.core :refer [send-message]]
+            [environ.core :refer [env]]))
 
 (defn send-email [from to subject body]
   (send-message
-    {:user ""
-     :pass ""
+    {:user (env :email-username)
+     :pass (env :email-password)
      :host "smtp.gmail.com"
      :ssl :yes!!!11}
     {:from from

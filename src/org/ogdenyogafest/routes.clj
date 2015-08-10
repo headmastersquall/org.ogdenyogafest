@@ -2,6 +2,7 @@
   (:require [selmer.parser :refer [render-file set-resource-path!]]
             [selmer.filters :refer [add-filter!]]
             [clojure.string :refer [capitalize split join]]
+            [environ.core :refer [env]]
             [org.ogdenyogafest.schedule :refer [full-schedule
                                                 days]]
             [org.ogdenyogafest.teachers :refer [teachers-list]]
@@ -142,7 +143,7 @@
                                     :errors errors})
     (do
       (contact-us/send-email "contactus@ogdenyogafest.org"
-                             "rinoa29@gmail.com"
+                             (env :contact-us-to)
                              "Ogden Yoga Fest - Contact Us"
                              (contact-us/build-message name email comments))
       (render-contact-us-thank-you))))
