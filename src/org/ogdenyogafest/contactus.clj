@@ -3,8 +3,8 @@
 
 (defn send-email [from to subject body]
   (send-message
-    {:user "headmastersquall"
-     :pass "gim47n-11"
+    {:user ""
+     :pass ""
      :host "smtp.gmail.com"
      :ssl :yes!!!11}
     {:from from
