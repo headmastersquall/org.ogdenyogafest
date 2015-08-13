@@ -142,7 +142,7 @@
                                     :csrf-token (anti-forgery-field)
                                     :errors errors})
     (do
-      (contact-us/send-email "contactus@ogdenyogafest.org"
+      (contact-us/send-email (env :contact-us-from)
                              (env :contact-us-to)
                              "Ogden Yoga Fest - Contact Us"
                              (contact-us/build-message name email comments))
