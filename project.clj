@@ -14,6 +14,7 @@
             [lein-environ "1.0.0"]]
   :ring {:handler org.ogdenyogafest.handler/app}
   :main org.ogdenyogafest.jetty
+  :aot [org.ogdenyogafest.jetty]
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]]}})
