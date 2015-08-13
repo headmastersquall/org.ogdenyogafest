@@ -14,8 +14,8 @@
   (GET "/contact-us" [] (r/render-contact-us))
   (GET "/vendor-contact-us" [] (r/render-vendor-contact-us))
   (GET "/volunteer-contact-us" [] (r/render-volunteer-contact-us))
-  (POST "/send-contact-us-email" [name email comments]
-        (r/process-contact-us name email comments))
+  (POST "/send-contact-us-email" [name email interest comments]
+        (r/process-contact-us name email interest comments))
   (GET "/contact-us-thank-you" [] (r/render-contact-us-thank-you))
   (GET "/lodging" [] (r/render-lodging))
   (GET "/location" [] (r/render-location))

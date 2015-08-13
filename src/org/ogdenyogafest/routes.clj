@@ -136,7 +136,7 @@
   (render-file "contact-us-thank-you.html" {:page-name "Thank you"}))
 
 
-(defn process-contact-us [name email comments]
+(defn process-contact-us [name email interest comments]
   (if-let [errors (seq (contact-us/validate name email comments))]
     (render-file "contact-us.html" {:page-name "Contact Us"
                                     :csrf-token (anti-forgery-field)
@@ -145,7 +145,7 @@
       (contact-us/send-email (env :contact-us-from)
                              (env :contact-us-to)
                              "Ogden Yoga Fest - Contact Us"
-                             (contact-us/build-message name email comments))
+                             (contact-us/build-message name email interest comments))
       (render-contact-us-thank-you))))
 
 
