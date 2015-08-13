@@ -6,16 +6,18 @@
 
 (def full-schedule
   [{:day :day-1
-    :time "6:00 PM - 7:15 PM"
-    :name "Binge Drinking"
-    :comment "over 21"
-    :teacher "Homer Simpson"
-    :room "420"}
+    :time ""
+    :name ""
+    :comment ""
+    :teacher ""
+    :room ""
+    :description ""}
 
    {:day :day-2
-    :time "8:00 AM - 9:30 AM"
-    :name "Binge Drinking"
-    :comment "over 21"
-    :teacher "Homer Simpson"
-    :room "420"}
+    :time ""
+    :name ""
+    :comment ""
+    :teacher ""
+    :room ""
+    :description ""}
    ])
