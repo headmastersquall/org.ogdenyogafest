@@ -1,5 +1,6 @@
 (ns org.ogdenyogafest.filters
   (require [clojure.string :refer [split lower-case]]
+           [org.ogdenyogafest.teachers :refer [teachers-list]]
            [clj-time.core :as t]))
 
 (defn to-thumb
@@ -9,14 +10,9 @@
    (let [[name ext] (split img-name #"[.]")]
      (str name "-thumb." ext)))
 
-(defn to-web-name
-  "Converts a name to a web friendly format so it can be used in links"
-  [full-name]
-   (let [[fname lname] (->
-                        full-name
-                        lower-case
-                        (split #" "))]
-     (str fname "_" lname)))
+(defn get-teacher-name [teacher-id]
+  (let [teacher (first (filter #(= (:id %) teacher-id) teachers-list))]
+    (-> teacher :name)))
 
 (defn this-year [_]
   (str (t/year (t/now))))

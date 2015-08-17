@@ -13,7 +13,7 @@
 
 (set-resource-path! (clojure.java.io/resource "templates"))
 (add-filter! :thumb to-thumb)
-(add-filter! :web-name to-web-name)
+(add-filter! :get-teacher-name get-teacher-name)
 (add-filter! :this-year this-year)
 
 
@@ -48,21 +48,6 @@
       colored)))
 
 
-(defn- capitalize-hyphenated-name
-  "Takes a hyphenated name and capitalizes each name"
-  [name]
-  (join "-" (->> (split name #"-") (map capitalize))))
-
-
-(defn- from-web-name
-  "Converts a web name to a proper format with capital letters"
-  [web-name]
-  (let [[fname lname] (->
-                       web-name
-                       (split #"_"))]
-    (str (capitalize fname) " " (capitalize-hyphenated-name lname))))
-
-
 (defn render-home []
   (render-file "index.html" {:page-name "Home"}))
 
@@ -91,14 +76,13 @@
                                 :teachers (sort-by :name teachers-list)}))
 
 
-(defn render-teacher [teacher-name]
-  (let [proper-teacher-name (from-web-name teacher-name)
-        teacher (first (filter #(= (:name %) proper-teacher-name) teachers-list))
+(defn render-teacher [teacher-id]
+  (let [teacher (first (filter #(= (:id %) teacher-id) teachers-list))
         classes (->>
                  full-schedule
-                 (filter #(= (:teacher %) proper-teacher-name))
+                 (filter #(= (:teacher-id %) teacher-id))
                  (map #(assoc % :day (get days (:day %)))))]
-    (render-file "teacher.html" {:page-name proper-teacher-name
+    (render-file "teacher.html" {:page-name (-> teacher :name)
                                  :teacher teacher
                                  :classes classes})))
 

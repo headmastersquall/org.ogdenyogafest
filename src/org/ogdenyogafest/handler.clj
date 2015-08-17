@@ -9,7 +9,7 @@
   (GET "/" [] (r/render-home))
   (GET "/schedule" [] (r/render-schedule))
   (GET "/teachers" [] (r/render-teachers))
-  (GET "/teacher/:teacher-name" [teacher-name] (r/render-teacher teacher-name))
+  (GET "/teacher/:teacher-id" [teacher-id] (r/render-teacher teacher-id))
   (GET "/tickets" [] (r/render-tickets))
   (GET "/contact-us" [] (r/render-contact-us))
   (GET "/vendor-contact-us" [] (r/render-vendor-contact-us))

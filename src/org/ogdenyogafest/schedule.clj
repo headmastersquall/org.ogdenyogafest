@@ -9,7 +9,7 @@
     :time ""
     :name ""
     :comment ""
-    :teacher ""
+    :teacher-id ""
     :room ""
     :description ""}
 
@@ -17,7 +17,7 @@
     :time ""
     :name ""
     :comment ""
-    :teacher ""
+    :teacher-id ""
     :room ""
     :description ""}
    ])
