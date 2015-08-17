@@ -5,7 +5,8 @@
            :day-2 "Saturday, October 10th"})
 
 (def full-schedule
-  [{:day :day-1
+  [{:id ""
+    :day :day-1
     :time ""
     :name ""
     :comment ""
@@ -13,7 +14,8 @@
     :room ""
     :description ""}
 
-   {:day :day-2
+   {:id ""
+    :day :day-2
     :time ""
     :name ""
     :comment ""

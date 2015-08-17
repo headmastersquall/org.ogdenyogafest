@@ -529,3 +529,6 @@
             Trishula blogs about the Karma's of the Integrated School of Yoga,
             as well as its students and teachers. Follow her at
             www.TrishulaDevi.com"}])
+
+(defn get-teacher-by-id [id]
+  (first (filter #(= (:id %) id) teachers-list)))

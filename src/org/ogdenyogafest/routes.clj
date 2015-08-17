@@ -5,7 +5,8 @@
             [environ.core :refer [env]]
             [org.ogdenyogafest.schedule :refer [full-schedule
                                                 days]]
-            [org.ogdenyogafest.teachers :refer [teachers-list]]
+            [org.ogdenyogafest.teachers :refer [teachers-list
+                                                get-teacher-by-id]]
             [org.ogdenyogafest.filters :refer :all]
             [org.ogdenyogafest.contactus :as contact-us]
             [ring.util.anti-forgery :refer [anti-forgery-field]]))
@@ -77,7 +78,7 @@
 
 
 (defn render-teacher [teacher-id]
-  (let [teacher (first (filter #(= (:id %) teacher-id) teachers-list))
+  (let [teacher (get-teacher-by-id teacher-id)
         classes (->>
                  full-schedule
                  (filter #(= (:teacher-id %) teacher-id))

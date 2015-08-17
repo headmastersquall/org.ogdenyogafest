@@ -1,6 +1,6 @@
 (ns org.ogdenyogafest.filters
   (require [clojure.string :refer [split lower-case]]
-           [org.ogdenyogafest.teachers :refer [teachers-list]]
+           [org.ogdenyogafest.teachers :refer [get-teacher-by-id]]
            [clj-time.core :as t]))
 
 (defn to-thumb
@@ -11,8 +11,7 @@
      (str name "-thumb." ext)))
 
 (defn get-teacher-name [teacher-id]
-  (let [teacher (first (filter #(= (:id %) teacher-id) teachers-list))]
-    (-> teacher :name)))
+  (-> (get-teacher-by-id teacher-id) :name))
 
 (defn this-year [_]
   (str (t/year (t/now))))
