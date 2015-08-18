@@ -528,7 +528,24 @@
             <br>
             Trishula blogs about the Karma's of the Integrated School of Yoga,
             as well as its students and teachers. Follow her at
-            www.TrishulaDevi.com"}])
+            www.TrishulaDevi.com"}
+
+   {:name  "Charlotte Bell"
+    :id    "charlotte-bell"
+    :image "charlotte-bell.jpg"
+    :bio   "Charlotte Bell began practicing yoga in 1982 and has been teaching
+            since 1986. She teaches yoga and meditation classes and workshops
+            all over the Intermountain West. Her classes focus on uncovering
+            the silent mind in the midst of physical practice. In 2013, she
+            founded Mindful Yoga Collective with a group of Salt Lake City’s
+            most experienced yoga and meditation teachers. Charlotte writes a
+            monthly column for Catalyst Magazine, edits blogs for Yoga U
+            Online and Hugger Mugger Yoga Products. She is the author of two
+            books: Mindful Yoga, Mindful Life and Yoga for Meditators, both
+            published by Rodmell Press. Her writing has appeared in Yoga
+            Journal and Yoga International. A lifelong musician, she plays
+            oboe and English horn in the Salt Lake Symphony and Red Rock
+            Rondo, whose music special won two Emmy awards in 2010."}])
 
 (defn get-teacher-by-id [id]
   (first (filter #(= (:id %) id) teachers-list)))
