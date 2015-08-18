@@ -324,9 +324,9 @@
             body. When the body is brought into a place of healing, ease and
             celebration the heart and mind follow."}
 
-   {:name  "Joe Perry"
-    :id    "joe-perry"
-    :image "joe-perry.jpg"
+   {:name  "Jai Krishna Das"
+    :id    "jai-krishna-das"
+    :image "jai-krishna-das.jpg"
     :bio   "Joe Perry aka (Jai Krishna Das) has been practicing yoga for over
             10 years and teaching for the last 4 years. He teaches at Gold’s
             Gym, 3B Yoga, and is part of the amazing Sunday Funday free
