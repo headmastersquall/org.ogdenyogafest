@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
             <div id="content">
-                <h2>2015 Schedule - TBA</h2>
+                <h2>2015 Schedule</h2>
                 <h3>{{day-1}}</h3>
                 <table>
                     <tr>
@@ -32,7 +32,7 @@
                     <tr class="{{class.row-color}}">
                         <td>{{class.time}}</td>
                         <td>{{class.name}}<br><span class="small-italic">{{class.comment}}</span></td>
-                        <td>{{class.teacher}}</td>
+                        <td>{{class.teacher-id|get-teacher-name}}</td>
                         <td>{{class.room}}</td>
                     </tr>
                     {% endfor %}

@@ -9,7 +9,7 @@
 
 (def teachers-list
   [{:name  "Brad Carroll"
-    :id    "brad-carroll"
+    :id    "8e04d8b8"
     :image "brad-carroll.jpg"
     :bio   "Has been practicing yoga for 9 years. He became a registered yoga
             teacher (200 hours) with the Yoga Alliance in 2008, and has been
@@ -18,7 +18,7 @@
             an astrophysicist and a professor of physics at Weber State"}
 
    {:name  "Rachelle Krohn"
-    :id    "rachelle-krohn"
+    :id    "ac0b7188"
     :image "rachelle-krohn.jpg"
     :bio   "Rachelle Krohn, E RYT, was introduced to Yoga in 1997 as a teen in
             Gresham Oregon. She began teaching in 2008, with certifications in
@@ -44,7 +44,7 @@
             Bagga."}
 
    {:name  "Laura Thompson"
-    :id    "laura-thompson"
+    :id    "d0c76716"
     :image "laura-thompson.jpg"
     :bio   "Laura Thompson, E-RYT - Laura has been teaching yoga for 10 years
             and is an Experienced Registered Yoga Teacher (E-RYT) with Yoga
@@ -61,7 +61,7 @@
             Program."}
 
    {:name  "Michelle Taylor"
-    :id    "michelle-taylor"
+    :id    "dc7fa83f"
     :image "michelle-taylor.jpg"
     :bio   "Michelle Taylor holds a Bachelors of Science in Human Performance
             Management with a minor in Nutrition from Weber State University.
@@ -74,7 +74,7 @@
             on breath, strength, mind-body awareness, and fun"}
 
    {:name  "Cyndi Black"
-    :id    "cyndi-black"
+    :id    "6851f962"
     :image "cyndi-black.jpg"
     :bio   "Cyndi took her first yoga class in 2001 just for exercise. She
             then found out how it quieted her mind and got her to relax. She
@@ -88,14 +88,14 @@
             wait for you to come and share your practice there! Namaste."}
 
    {:name  "Michael Larson"
-    :id    "michael-larson"
+    :id    "ac69c9a8"
     :image "michael-larson.jpg"
     :bio   "Michael Larson, Owner/Director of Bikram Yoga Ogden since 2004.
             Completed Vimana Beginner's Yoga and Vimana Fusion Teacher
             Training in 2014."}
 
    {:name  "Carolina Ferrin"
-    :id    "carolina-ferrin"
+    :id    "1b6bb10b"
     :image "carolina-ferrin.jpg"
     :bio   "200 RYT Carolina has been teaching Yoga for over 5 years. She
             believes Yoga is available to everyone. Because of Yoga she has
@@ -106,7 +106,7 @@
             Fitness, and Hill Air Force Base."}
 
    {:name  "Brittany Madson"
-    :id    "brittany-madson"
+    :id    "aab34827"
     :image "brittany-madson.jpg"
     :bio   "Brittany has found yoga to be a beautiful gift in her life and she
             feels blessed to have the opportunity to share her passion with
@@ -119,7 +119,7 @@
             and find the truth that’s waiting for them from within."}
 
    {:name  "Rena Skeen"
-    :id    "rena-skeen"
+    :id    "d1cd5b5b"
     :image "rena-skeen.jpg"
     :bio   "Holds multiple certifications as a group fitness instructor, and
             completed her Registered Yoga Teacher 200 training in March. Her
@@ -128,7 +128,7 @@
             encouraging them to unleash their personal power and beauty."}
 
    {:name  "Kathi Needham"
-    :id    "kathi-needham"
+    :id    "b348686b"
     :image "kathi-needham.jpg"
     :bio   "My practice of Yoga began in 2001 as a means to combat performance
             anxiety. Yoga has taught me that I can change my response to any
@@ -143,7 +143,7 @@
             strength that I use in all other areas of my life."}
 
    {:name  "Allison Berlin"
-    :id    "allison-berlin"
+    :id    "c33c4a13"
     :image "allison-berlin.jpg"
     :bio   "I love breathe, gardening, fun, raw chocolate, teaching, hiking,
             mountains, my boys, learning, kombucha, movement, smiling, oceans,
@@ -154,7 +154,7 @@
             teach. Also, mindfulness, breathe and play."}
 
    {:name  "Stephanie Detar"
-    :id    "stephanie-detar"
+    :id    "0501d2ee"
     :image "stephanie-detar.jpg"
     :bio   "In her late teens Stephanie started exploring the wonderful world
             of yoga starting with Hatha Yoga. In 2011 she traveled to Bali,
@@ -176,14 +176,14 @@
             Trance Dance into the schedule."}
 
    {:name  "Chris Taylor"
-    :id    "chris-taylor"
+    :id    "b45cb675"
     :image "chris-taylor.jpg"
     :bio   "I am a software developer, musician, martial artist and yogi. My
             interests include hiking, gardening reading and being outside. I
             love being with friends and family and simply having a good time."}
 
    {:name  "Kathy Stobaugh"
-    :id    "kathy-stobaugh"
+    :id    "ccd41d5b"
     :image "kathy-stobaugh.jpg"
     :bio   "Kathy Stobaugh (200hr E-RYT) has been practicing yoga since 1998.
             After retiring in 2009 from being an educator, she completed her
@@ -200,7 +200,7 @@
             life without yoga and meditation."}
 
    {:name  "Charese Peterson"
-    :id    "charese-peterson"
+    :id    "4e662717"
     :image "charese-peterson.png"
     :bio   "Is a 26 year old ogden native, has been teaching yoga for the past
             year. Charese attended bikram teacher training in fall 2014, and
@@ -209,7 +209,7 @@
             every day.\""}
 
    {:name  "Mike Olpin"
-    :id    "michael-olpin"
+    :id    "b3c4c4a7"
     :image "mike-olpin.jpg"
     :bio   "Dr. Michael Olpin is a full professor of Health Promotion at Weber
             State University. He has studied and researched the science of
@@ -260,7 +260,7 @@
             practicing and teaching meditation ever since."}
 
    {:name  "Lehi Vitor"
-    :id    "lehi-vitor"
+    :id    "469ce8d3"
     :image "lehi-vitor.jpg"
     :bio   "Lehi vitor ( Pezão ) was born in Goiania, Brazil, Started training
             capoeira in 2004 under Mestre Efraim in Silva where he found a
@@ -270,7 +270,7 @@
             culture with everyone."}
 
    {:name  "Reina Forsythe"
-    :id    "reina-forsythe"
+    :id    "f1c42a98"
     :image "reina-forsythe.jpg"
     :bio   "Reina began a consistent yoga practice after a college yoga course
             18 years ago. After 11 years of practice Reina certified as an
@@ -291,7 +291,7 @@
             certified as an EMT, BLS , CPR, and First Aid Instructor."}
 
    {:name  "Rachel Ellis"
-    :id    "rachel-ellis"
+    :id    "6f803dda"
     :image "rachel-ellis.jpg"
     :bio   "Is the lively spirit behind On the Pond Fitness & Rentals. Her
             introduction to SUP came in Hawaii in 2010 while vacationing with
@@ -309,7 +309,7 @@
             Team Athlete for Dave Scadden Paddle Boards."}
 
    {:name  "Kimberly Achelis-Hoggan"
-    :id    "kimberly-achelis-hoggan"
+    :id    "0ef6d9b2"
     :image "kimberly-achelis-hoggan.jpg"
     :bio   "Kimberly Achelis-Hoggan has been teaching yoga for 10 years and is
             proud to be a Certified Anusara Yoga Teacher E-RYT and Licensed
@@ -325,7 +325,7 @@
             celebration the heart and mind follow."}
 
    {:name  "Jai Krishna Das"
-    :id    "jai-krishna-das"
+    :id    "2c200bd4"
     :image "jai-krishna-das.jpg"
     :bio   "Joe Perry aka (Jai Krishna Das) has been practicing yoga for over
             10 years and teaching for the last 4 years. He teaches at Gold’s
@@ -347,7 +347,7 @@
             PhotographyPhoto credit: Eric R Ward Photography"}
 
    {:name  "Pati Reiss"
-    :id    "pati-reiss"
+    :id    "08bd27a9"
     :image "pati-reiss.png"
     :bio   "Pati Reiss, BA, HHC, NRC is a certified holistic health
             coach/nutrition recovery coach, educator and chef. Her work
@@ -378,7 +378,7 @@
             food and nutrition education classes."}
 
    {:name  "Timothy Lewis"
-    :id    "timothy-lewis"
+    :id    "e41898e1"
     :image "timothy-lewis.jpg"
     :bio   "Timothy Lewis has studied Ayurveda and taught yoga since 2007. He
             received his training through the California College of Ayurveda
@@ -395,7 +395,7 @@
             certification in making herbal medicines."}
 
    {:name  "Christine Wright"
-    :id    "christine-wright"
+    :id    "d69ea7f2"
     :image "christine-wright.jpg"
     :bio   "Christine’s yoga journey began in 1989. She began seeking physical
             exercise but soon realized that the practice of yoga holds many
@@ -410,7 +410,7 @@
             writing, sharing and plenty of laughter!"}
 
    {:name  "Ashley and Rachel Badali"
-    :id    "ashley-and-rachel-badali"
+    :id    "9d35c244"
     :image "ashley-and-rachel-badali.jpg"
     :bio   "Ashley and Rachel Badali are sisters from Ogden. They enjoy
             teaching and practicing yoga together. Last year they completed
@@ -421,7 +421,7 @@
             @sobadrach."}
 
    {:name  "Denton Coleman"
-    :id    "denton-coleman"
+    :id    "eb5d7b80"
     :image "denton-coleman.jpg"
     :bio   "Is an Exercise Physiologist who currently resides in Ogden, Utah. 
             He received his bachelor’s degree in Human Performance with an
@@ -437,7 +437,7 @@
             Holistic Fitness Specialist, and a Certified Personal Trainer."}
 
    {:name  "Jan Howell"
-    :id    "jan-howell"
+    :id    "229aaa4d"
     :image "jan-howell.jpg"
     :bio   "Jan is a RYT-200 yoga instructor and has been teaching yoga since
             2001. She has taught in many different settings, including
@@ -450,7 +450,7 @@
             Yoga with A Chair."}
 
    {:name  "Bronwen Beecher"
-    :id    "bronwen-beecher"
+    :id    "e14ac600"
     :image "bronwen-beecher.jpg"
     :bio   "I consider myself  a \"yoga refugee.\" In 2008 I began training
             with Ana Forrest to further the work I had done with D'ana
@@ -469,7 +469,7 @@
             my personal attention in a respectful and safe environment."}
 
    {:name  "Ardyce Lewis"
-    :id    "ardyce-lewis"
+    :id    "e52818a1"
     :image "ardyce-and-heather.jpg"
     :bio   "The man that first introduced me to kalarippayattu in Salt Lake
             later became my husband as we found and forged a common passion
@@ -487,7 +487,7 @@
             Movement® in Cottonwood Heights."}
 
    {:name  "Heather Jones"
-    :id    "heather-jones"
+    :id    "c0de6ae2"
     :image "ardyce-and-heather.jpg"
     :bio   "Heather was introduced to Kalari during a yoga teacher training
             in 2010. Intrigued by the changes that she began to notice in
@@ -513,7 +513,7 @@
             work."}
 
    {:name  "Trishula Devi"
-    :id    "trishula-devi"
+    :id    "49d5b485"
     :image "trishula-devi.jpg"
     :bio   "Trishula Devi has been a long time student of the Integrated
             School of Yoga, becoming certified as an Instructor and Master of
@@ -531,7 +531,7 @@
             www.TrishulaDevi.com"}
 
    {:name  "Charlotte Bell"
-    :id    "charlotte-bell"
+    :id    "6f4a57a0"
     :image "charlotte-bell.jpg"
     :bio   "Charlotte Bell began practicing yoga in 1982 and has been teaching
             since 1986. She teaches yoga and meditation classes and workshops
