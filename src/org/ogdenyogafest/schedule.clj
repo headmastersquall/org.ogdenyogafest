@@ -9,6 +9,7 @@
 (def r119 "119")
 (def cpr "CPR Room")
 (def nutrition "Nutrition Room")
+(def pool "Pool")
 
 (def full-schedule
   [{:id "16041290"
@@ -245,7 +246,7 @@
     :day :day-2
     :time "12:10 – 1:00"
     :name "Lunch"
-    :comment "(chanting)"
+    :comment "(Kirtan)"
     :teacher-id ""
     :room "Lobby"
     :description ""}
@@ -318,7 +319,7 @@
    {:id "cafaeefd"
     :day :day-2
     :time "2:40 – 4:10"
-    :name "Kalari"
+    :name "Kalari Movements"
     :comment ""
     :teacher-id "e52818a1"
     :room r119
@@ -379,4 +380,12 @@
     :room cpr
     :description ""}
 
+   {:id "b0bf0b6f"
+    :day :day-2
+    :time "4:20 – 5:50"
+    :name "Sup Yoga"
+    :comment "(Swimwear required)"
+    :teacher-id "6f803dda"
+    :room pool
+    :description ""}
    ])
