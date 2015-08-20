@@ -261,23 +261,17 @@ th {
     clear:both;
 }
 
+
 /*
  * Tickets page
  */
 
-#ticket-note {
-    margin-left:2em;
-}
-
 .ticket-box {
     border:2px solid #544e46;
     border-radius:8px;
-    width:15em;
     height:13em;
-    margin:1em 2em;
-    padding-top:1em;
+    padding:4em 2em 0 2em;
     text-align:center;
-    float:left;
 }
 
 .ticket-box p {
@@ -286,16 +280,11 @@ th {
     margin:0 0 10px 0;
 }
 
-#price {
-    line-height:1.5;
-    font-size:3.5em;
-    color:#96373f;
-}
-
 .ticket-box button {
     padding:1em;
-    margin-top:.7em;
+    margin-top:2em;
 }
+
 
 /*
  * Contact Us
