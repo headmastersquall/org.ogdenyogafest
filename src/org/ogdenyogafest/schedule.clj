@@ -66,6 +66,15 @@
     :room nutrition
     :description ""}
 
+   {:id "cce07f06"
+    :day :day-1
+    :time "5:00 - 6:30"
+    :name "SUP Yoga"
+    :comment "(Swimwear and pre-registration required)"
+    :teacher-id "1b6bb10b"
+    :room pool
+    :description ""}
+
 
    {:id "d444d575"
     :day :day-1
@@ -320,7 +329,7 @@
     :day :day-2
     :time "2:40 – 4:10"
     :name "Kalari Movements"
-    :comment ""
+    :comment "(Co-taught by Heather Jones)"
     :teacher-id "e52818a1"
     :room r119
     :description ""}
@@ -384,7 +393,7 @@
     :day :day-2
     :time "4:20 – 5:50"
     :name "Sup Yoga"
-    :comment "(Swimwear required)"
+    :comment "(Swimwear and pre-registration required)"
     :teacher-id "6f803dda"
     :room pool
     :description ""}
