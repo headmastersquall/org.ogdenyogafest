@@ -13,8 +13,8 @@
                     {% for class in day-1-classes %}
                     <tr class="{{class.row-color}}">
                         <td>{{class.time}}</td>
-                        <td>{{class.name}}<br><span class="small-italic">{{class.comment}}</span></td>
-                        <td>{{class.teacher-id|get-teacher-name}}</td>
+                        <td><a href="/class/{{class.id}}">{{class.name}}</a><br><span class="small-italic">{{class.comment}}</span></td>
+                        <td><a href="/teacher/{{class.teacher-id}}">{{class.teacher-id|get-teacher-name}}</a></td>
                         <td>{{class.room}}</td>
                     </tr>
                     {% endfor %}
@@ -31,8 +31,8 @@
                     {% for class in day-2-classes %}
                     <tr class="{{class.row-color}}">
                         <td>{{class.time}}</td>
-                        <td>{{class.name}}<br><span class="small-italic">{{class.comment}}</span></td>
-                        <td>{{class.teacher-id|get-teacher-name}}</td>
+                        <td><a href="/class/{{class.id}}">{{class.name}}</a><br><span class="small-italic">{{class.comment}}</span></td>
+                        <td><a href="/teacher/{{class.teacher-id}}">{{class.teacher-id|get-teacher-name}}</a></td>
                         <td>{{class.room}}</td>
                     </tr>
                     {% endfor %}

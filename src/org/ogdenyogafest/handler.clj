@@ -8,6 +8,7 @@
 (defroutes app-routes
   (GET "/" [] (r/render-home))
   (GET "/schedule" [] (r/render-schedule))
+  (GET "/class/:class-id" [class-id] (r/render-class class-id))
   (GET "/teachers" [] (r/render-teachers))
   (GET "/teacher/:teacher-id" [teacher-id] (r/render-teacher teacher-id))
   (GET "/tickets" [] (r/render-tickets))

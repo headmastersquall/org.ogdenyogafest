@@ -217,6 +217,14 @@ th {
 }
 
 /*
+ * Class Details
+ */
+
+#class-details p {
+    margin-bottom: 2em;
+}
+
+/*
  * Teachers
  */
 
@@ -253,7 +261,7 @@ th {
     box-shadow:3px 4px 8px #777;
 }
 
-#teacher-detals h3 {
+#teacher-details h3 {
     line-height:0;
 }
 

@@ -4,7 +4,9 @@
             [clojure.string :refer [capitalize split join]]
             [environ.core :refer [env]]
             [org.ogdenyogafest.schedule :refer [full-schedule
-                                                days]]
+                                                days
+                                                get-class-by-id
+                                                get-class-day]]
             [org.ogdenyogafest.teachers :refer [teachers-list
                                                 get-teacher-by-id]]
             [org.ogdenyogafest.filters :refer :all]
@@ -16,6 +18,7 @@
 (add-filter! :thumb to-thumb)
 (add-filter! :get-teacher-name get-teacher-name)
 (add-filter! :this-year this-year)
+(add-filter! :get-class-day get-class-day)
 
 
 (defn- format-schedule
@@ -70,6 +73,11 @@
                                   (color-groups))
                   :day-1 (:day-1 days)
                   :day-2 (:day-2 days)})))
+
+
+(defn render-class [class-id]
+  (render-file "class.html" {:page-name "Class Details"
+                             :class (get-class-by-id class-id)}))
 
 
 (defn render-teachers []
