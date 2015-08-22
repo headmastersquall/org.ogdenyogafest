@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+            <div id="content">
+                <h2>{{class.name}}</h2>
+                <div id="class-details">
+                    <h3>When</h3>
+                    <p>{{class.day|get-class-day}} {{class.time}}</p>
+                    {% if class.teacher-id|length > 0 %}
+                    <h3>Teacher</h3>
+                    <p><a href="/teacher/{{class.teacher-id}}">
+                        {{class.teacher-id|get-teacher-name}}</a>
+                    </p>
+                    {% endif %}
+                    <h3>Description</h3>
+                    <p>{{class.description|safe}}</p>
+                </div>
+            </div>
+{% endblock %}
