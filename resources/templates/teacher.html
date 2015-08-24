@@ -19,7 +19,7 @@
                         <tr class="{% cycle white grey %}">
                             <td>{{class.day}}</td>
                             <td>{{class.time}}</td>
-                            <td>{{class.name}}<br><span class="small-italic">{{class.comment}}</span></td>
+                            <td><a href="/class/{{class.id}}">{{class.name}}</a><br><span class="small-italic">{{class.comment}}</span></td>
                             <td>{{class.room}}</td>
                         </tr>
                         {% endfor %}
