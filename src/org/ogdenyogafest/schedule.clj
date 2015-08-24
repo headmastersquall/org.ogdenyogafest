@@ -558,7 +558,7 @@
    {:id "cafaeefd"
     :day :day-2
     :time "2:40 – 4:10"
-    :name "Kalari Movements"
+    :name "Kalari Movement"
     :comment "(Co-taught by Heather Jones)"
     :teacher-id "e52818a1"
     :room r119
