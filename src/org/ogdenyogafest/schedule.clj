@@ -46,7 +46,11 @@
     :comment ""
     :teacher-id "6851f962"
     :room studio-b
-    :description (str "")}
+    :description (str
+                  "Learn breathing techniques and stretches to ease pregnancy "
+                  "and prepare for labor. Doing yoga helps increase "
+                  "flexibility, builds strength, and reduces stress. "
+                  "Beginners and all levels welcome.")}
 
    {:id "dc13b1fc"
     :day :day-1
@@ -55,7 +59,13 @@
     :comment ""
     :teacher-id "b348686b"
     :room r119
-    :description (str "")}
+    :description (str
+                  "A challenging, dynamic, body and mind-balancing "
+                  "prescription for strength and flexibility. "
+                  "Breath-synchronized movement is used to create heat to "
+                  "help increase flexibility and purify the body. Ashtanga "
+                  "addresses the push muscles and back core, which makes it "
+                  "great opposition training for climbers.")}
 
    {:id "0273f78a"
     :day :day-1
@@ -64,7 +74,13 @@
     :comment ""
     :teacher-id "b45cb675"
     :room cpr
-    :description (str "")}
+    :description (str
+                  "Take a moment to just sit in silence using zazen "
+                  "techniques to focus your mind on the present moment. Learn "
+                  "how to use breath counting to gain control of your "
+                  "thoughts and help prevent wandering of the mind. We will "
+                  "also explore vairous sitting styles to help maintain a "
+                  "proper posture and protect our knees.")}
 
    {:id "26276fa4"
     :day :day-1
@@ -91,7 +107,11 @@
     :comment "(Swimwear and pre-registration required)"
     :teacher-id "1b6bb10b"
     :room pool
-    :description (str "")}
+    :description (str
+                  "Paddle Board Yoga is a variation of stand up paddle surfing "
+                  "(SUP), combined with yoga, which originated in Rishikesh, "
+                  "India. The sport combines hatha yoga and vinyasa yoga "
+                  "asanas, or poses, with surfing.")}
 
 
    {:id "d444d575"
@@ -116,7 +136,15 @@
     :comment ""
     :teacher-id "8e04d8b8"
     :room studio-b
-    :description (str "")}
+    :description (str
+                  "The essence of yoga is using the breath to link the mind "
+                  "and the body. However, this link is easily broken if you "
+                  "are moving too quickly and panting for breath. In this slo "
+                  "mo flow, you will move slowly and continuously, guided "
+                  "only by your breath, through a series of moves that "
+                  "spirals from easy to more challenging. This practice will "
+                  "take you deeply inside yourself, and leave you feeling "
+                  "calm and refreshed.")}
 
    {:id "b2b91044"
     :day :day-1
@@ -145,7 +173,10 @@
     :comment ""
     :teacher-id "1b6bb10b"
     :room cpr
-    :description (str "")}
+    :description (str
+                  "This class would utilize Yoga Blocks, Straps, small hand "
+                  "weights, and stability ball. Using the \"toys\" to create "
+                  "fun accessible Yoga and some challenging asanas as well.")}
 
    {:id "54607146"
     :day :day-1
@@ -232,7 +263,15 @@
     :comment ""
     :teacher-id "f1c42a98"
     :room cpr
-    :description (str "")}
+    :description (str
+                  "In this Yoga Nidra Session, we aim to leave the Waking "
+                  "state, go past the Dreaming state, and go to Deep Sleep, "
+                  "yet remain awake. While Yoga Nidra is a state that is very "
+                  "relaxing, it is also used by Yogis to purify the "
+                  "Samskaras, the deep impressions that are the driving force "
+                  "behind Karma. This practice will bring awareness of "
+                  "Samskaras through the five main Koshas, or layers of "
+                  "being.")}
 
 
    {:id "60d8207e"
@@ -251,7 +290,12 @@
     :comment ""
     :teacher-id "6851f962"
     :room studio-b
-    :description (str "")}
+    :description (str
+                  "Fake it til you make it, laughing is contagious! There are "
+                  "numerous health benefits to laughing. We will start with "
+                  "some exercises to open up communication and break down "
+                  "inhibitions, then end with some playful asana practice. "
+                  "Bring your inner child. All levels welcome.")}
 
    {:id "48396538"
     :day :day-2
@@ -291,7 +335,13 @@
     :comment ""
     :teacher-id "d0c76716"
     :room cpr
-    :description (str "")}
+    :description (str
+                  "In this vinyasa flow sequence, identify the 7 chakras and "
+                  "poses designed to stimulate each. Starting with the root "
+                  "chakra and working our way up to the crown -- flowing from "
+                  "one chakra to the next, holding some postures for up to a "
+                  "minute. Ending with a 10-minute chakra body scan "
+                  "meditation/savasana.")}
 
    {:id "877255ab"
     :day :day-2
@@ -300,7 +350,15 @@
     :comment ""
     :teacher-id "e41898e1"
     :room nutrition
-    :description (str "")}
+    :description (str
+                  "Prana, tejas, ojas are the subtle forms of vata pitta and "
+                  "kapha. They exist in our consciousness more then the body. "
+                  "They directly effect how we experience life. Learning the "
+                  "balance of these three energies is essential for a deeper "
+                  "practice of Yoga. Too much or too little Prana, Tejas, or "
+                  "Ojas can be a detrimental barrier to yoga. Come find out "
+                  "why and develop a greater understanding to where you are "
+                  "personally within that balance.")}
 
 
    {:id "6660fea5"
@@ -553,13 +611,24 @@
     :comment ""
     :teacher-id "6f4a57a0"
     :room studio-b
-    :description (str "")}
+    :description (str
+                  "Your sacroiliac (SI) joint is the center point of your "
+                  "structure. It is the pivotal joint between the upper and "
+                  "lower body. It is also the site of the most common "
+                  "injuries in yoga. Some popular alignment instructions can "
+                  "actually contribute to SI dysfunction, because they are "
+                  "based more on how a pose looks than on how your skeleton "
+                  "is designed. In this class you will learn how the SI joint "
+                  "and the rest of the spine are designed to move, and how to "
+                  "fashion an asana practice that reflects the natural "
+                  "movements of the spine. Knowing how to move intelligently "
+                  "creates stability and ease in the body and mind.")}
 
    {:id "cafaeefd"
     :day :day-2
     :time "2:40 – 4:10"
     :name "Kalari Movement"
-    :comment "(Co-taught by Heather Jones)"
+    :comment "(Co-taught by <a href=\"/teacher/c0de6ae2\">Heather Jones</a>)"
     :teacher-id "e52818a1"
     :room r119
     :description (str
@@ -613,7 +682,12 @@
     :comment ""
     :teacher-id "f1c42a98"
     :room studio-a
-    :description ""}
+    :description (str
+                  "In this Restore session, we will deepen awareness of the "
+                  "mental, physical, and emotional places where tension "
+                  "resides. we will experiment with different types of "
+                  "posture and breath to discover what works to bring your "
+                  "unique body into balance.")}
 
    {:id "20fbc1cd"
     :day :day-2
@@ -653,7 +727,13 @@
     :comment ""
     :teacher-id "d0c76716"
     :room cpr
-    :description ""}
+    :description (str
+                  "Learn the purpose of a mandala and a mala in meditation "
+                  "practice, and how to use them. In this hands-on, yoga "
+                  "arts-and-crafts hour we will create our own unique mandala "
+                  "and mala (bracelet) for our personal yoga/meditation "
+                  "practice, and choose an inspiring meditation to bless/seal "
+                  "our mandala and mala. Additional $5 cost for materials.")}
 
    {:id "b0bf0b6f"
     :day :day-2
@@ -662,7 +742,11 @@
     :comment "(Swimwear and pre-registration required)"
     :teacher-id "6f803dda"
     :room pool
-    :description ""}
+    :description (str
+                  "Paddle Board Yoga is a variation of stand up paddle surfing "
+                  "(SUP), combined with yoga, which originated in Rishikesh, "
+                  "India. The sport combines hatha yoga and vinyasa yoga "
+                  "asanas, or poses, with surfing.")}
    ])
 
 
