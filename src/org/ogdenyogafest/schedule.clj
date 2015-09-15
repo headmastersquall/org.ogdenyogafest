@@ -360,7 +360,7 @@
     :time "10:40 – 12:10"
     :name "Authentic Yoga - Being REAL In Your Practice"
     :comment ""
-    :teacher-id "d1cd5b5b"
+    :teacher-id "ccd41d5b"
     :room studio-b
     :description (str
                   "All bodies are different and unique and so should the way "
