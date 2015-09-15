@@ -176,19 +176,31 @@
    {:name  "Kathy Stobaugh"
     :id    "ccd41d5b"
     :image "kathy-stobaugh.jpg"
-    :bio   "Kathy Stobaugh (200hr E-RYT) has been practicing yoga since 1998.
-            After retiring in 2009 from being an educator, she completed her
-            yoga teacher training at Yoga Jo’s Studio in North Ogden where she
-            began teaching in January 2010. Kathy has expanded her training by
-            attending the Yoga Journal Conference in Estes Park, CO in 2011,
-            2012, and 2014, concentrating on vinyasa, power yoga, alignment,
-            and meditation practices. In January 2013, she and Brad Carroll
-            formed a business partnership and opened their own yoga studio,
-            Ogden Sangha Yoga located in Marriott-Slaterville on 400 North.
-            She also teaches express classes at the BDO Gym, subs at Gold’s
-            Gym and taught at the Eccles Art Center for several months. Kathy
-            is passionate about sharing yoga with others. She cannot imagine a
-            life without yoga and meditation."}
+    :bio   (str
+            "I've been practicing yoga since 1994 and cannot imagine life "
+            "without it. I completed my teacher training in 2010 at Yoga Jo's "
+            "studio in North Ogden. I have expanded my training by attending "
+            "the Yoga Journal Conference in Estes Park, CO in 2011, 2012, and "
+            "2014, concentrating on vinyasa, power yoga, alignment, and "
+            "meditation practices. My teaching experience has been at Yoga "
+            "Jo's, Eccles Community Art Center, Gold's Gym, and the BDO "
+            "Fitness Center. In January 2012, Brad Carroll and I opened our "
+            "own studio, Ogden Sangha Yoga, in Marriott-Slaterville.<br>"
+            "<br>"
+            "Guided Meditation<br>"
+            "<br>"
+            "During the Guided Meditation practice, students will experience "
+            "a \"focusing\" process beginning with pranayama and spinal "
+            "breathing. They will be guided through some chakra experiences "
+            "leading them to their own unique meditation experience.<br>"
+            "<br>"
+            "Mandala Namaskar<br>"
+            "<br>"
+            "Mandalas are used in various spiritual traditions as a vehicle "
+            "for focusing attention. By using a mandala movement during yoga "
+            "practice, a yogi is able to flow more and more easily through "
+            "the sacred space on the mat, becoming one with the breath and "
+            "the body.")}
 
    {:name  "Charese Peterson"
     :id    "4e662717"
