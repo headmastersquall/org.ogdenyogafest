@@ -118,15 +118,6 @@
             help her students to heal, find wellness, discover mental clarity
             and find the truth that’s waiting for them from within."}
 
-   {:name  "Rena Skeen"
-    :id    "d1cd5b5b"
-    :image "rena-skeen.jpg"
-    :bio   "Holds multiple certifications as a group fitness instructor, and
-            completed her Registered Yoga Teacher 200 training in March. Her
-            focus is making fitness accessible to all women regardless of
-            experience, age, or size by creating a judgment free zone and
-            encouraging them to unleash their personal power and beauty."}
-
    {:name  "Kathi Needham"
     :id    "b348686b"
     :image "kathi-needham.jpg"

@@ -212,31 +212,6 @@
                   "easing into Japa meditation. Informational & experiential. "
                   "vBring mala beads if available.")}
 
-   {:id "b9031365"
-    :day :day-1
-    :time "8:20 – 9:20"
-    :name "Authentic Yoga - Being REAL In Your Practice"
-    :comment ""
-    :teacher-id "229aaa4d"
-    :room studio-b
-    :description (str
-                  "All bodies are different and unique and so should the way "
-                  "you practice yoga. Accepting and honoring where you are at "
-                  "physically, and practicing yoga accordingly, will promote "
-                  "long term health and well being. Yoga can be for everyone! "
-                  "Poses done with the focus solely on flexibility and not "
-                  "stability can result in degeneration of the joints and "
-                  "chronic pain.<br>"
-                  "<br>"
-                  "In this class Jan will teach you how to practice your "
-                  "favorite yoga poses authentically, in a way that will "
-                  "stabilize and support your joints.  After a short yoga "
-                  "practice implementing what you have just learned, you will "
-                  "enjoy a special guided relaxation focused on self care, "
-                  "that will leave you feeling empowered and renewed.<br>"
-                  "<br>"
-                  "Support, stabilize and renew the REAL you!")}
-
    {:id "d1904057"
     :day :day-1
     :time "8:20 – 9:20"
@@ -383,19 +358,27 @@
    {:id "2bb2a27f"
     :day :day-2
     :time "10:40 – 12:10"
-    :name "Chair yoga"
+    :name "Authentic Yoga - Being REAL In Your Practice"
     :comment ""
     :teacher-id "d1cd5b5b"
     :room studio-b
     :description (str
-                  "A series of yoga moves modified for chair keeps you off "
-                  "the floor.  No mat required, loose and comfortable street "
-                  "clothes are fine. You will learn how you can do yoga "
-                  "anywhere, including the office, home, park bench, anywhere "
-                  "you have a chair and a little space! With a focus on "
-                  "breath and movement while using the chair for stability, "
-                  "chair yoga can be as easy or challenging as you desire. "
-                  "This class is suitable for all levels.")}
+                  "All bodies are different and unique and so should the way "
+                  "you practice yoga. Accepting and honoring where you are at "
+                  "physically, and practicing yoga accordingly, will promote "
+                  "long term health and well being. Yoga can be for everyone! "
+                  "Poses done with the focus solely on flexibility and not "
+                  "stability can result in degeneration of the joints and "
+                  "chronic pain.<br>"
+                  "<br>"
+                  "In this class Jan will teach you how to practice your "
+                  "favorite yoga poses authentically, in a way that will "
+                  "stabilize and support your joints.  After a short yoga "
+                  "practice implementing what you have just learned, you will "
+                  "enjoy a special guided relaxation focused on self care, "
+                  "that will leave you feeling empowered and renewed.<br>"
+                  "<br>"
+                  "Support, stabilize and renew the REAL you!")}
 
    {:id "e42e2fbf"
     :day :day-2
