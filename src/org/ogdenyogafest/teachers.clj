@@ -397,21 +397,6 @@
             Certification, Pancha Karma therapies Certification, as well as a
             certification in making herbal medicines."}
 
-   {:name  "Christine Wright"
-    :id    "d69ea7f2"
-    :image "christine-wright.jpg"
-    :bio   "Christine’s yoga journey began in 1989. She began seeking physical
-            exercise but soon realized that the practice of yoga holds many
-            keys to a happy, healthy and (most of the time) peaceful life. She
-            sought out different teachers and several styles through the
-            years. After raising her daughter and finalizing a long life in
-            high tech marketing, she took to the road and spent time in China,
-            Tibet, Nepal, India, Haiti, Hawaii and 8 months on the island of
-            Bali where she acquired her 200 hour yoga teaching certificate and
-            delved deeply into the practice of meditation. Christine’s classes
-            are Hatha based and incorporate chanting, meditation, dance,
-            writing, sharing and plenty of laughter!"}
-
    {:name  "Ashley and Rachel Badali"
     :id    "9d35c244"
     :image "ashley-and-rachel-badali.jpg"
