@@ -423,7 +423,7 @@
     :day :day-2
     :time "12:10 – 1:00"
     :name "Lunch"
-    :comment "(Kirtan)"
+    :comment "(Music by Bronwen Beecher)"
     :teacher-id ""
     :room lobby
     :description (str "")}
