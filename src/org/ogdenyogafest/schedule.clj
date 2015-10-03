@@ -672,23 +672,6 @@
                   "posture and breath to discover what works to bring your "
                   "unique body into balance.")}
 
-   {:id "20fbc1cd"
-    :day :day-2
-    :time "4:20 – 5:50"
-    :name "Yoga and writing from the soul"
-    :comment ""
-    :teacher-id "d69ea7f2"
-    :room studio-b
-    :description (str
-                  "In this class we will explore a short session of free "
-                  "writing, which can help you open the creative channels and "
-                  "access deeper expressions in all areas of life. We also aim "
-                  "to connect and support each other as evolving souls who "
-                  "happen to use writing and yoga as practice. Along with slow "
-                  "movement and gentle breath work, we will tune in to our "
-                  "body and listen to what our soul would like to express "
-                  "through the written word.")}
-
    {:id "0359915e"
     :day :day-2
     :time "4:20 – 5:50"
