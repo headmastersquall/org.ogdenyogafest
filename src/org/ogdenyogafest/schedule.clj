@@ -387,7 +387,11 @@
     :comment ""
     :teacher-id "b348686b"
     :room r119
-    :description (str "")}
+    :description (str
+    	          "The Arts and Crafts of Back Bending: We will be exploring "
+    	          "the foundational movements that help to extend the spine. "
+    	          "Then, we will do our best to put those movements into "
+    	          "practice by playing with some backbends.")}
 
    {:id "f3b1e0b8"
     :day :day-2
