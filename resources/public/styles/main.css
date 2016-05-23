@@ -6,6 +6,12 @@ light-grey=#eeeeee
 */
 
 /*
+New Colors
+burgundy=#93330e
+green=#869018
+*/
+
+/*
  * Global settings
  */
 
@@ -24,7 +30,7 @@ body {
 
 a {
     text-decoration:none;
-    color:#544e46;
+    color:#433d37;
 }
 
 ul {
@@ -42,7 +48,7 @@ h2 {
 }
 
 h3 {
-    color:#544e46;
+    color:#93330e;
 }
 
 .bold {
@@ -68,8 +74,8 @@ h3 {
 
 header {
     width:100%;
-    background-color:#96373f;
-    height:235px;
+    background-color:#ffffff;
+    height:190px;
 }
 
 header {
@@ -84,10 +90,10 @@ header h1 {
 
 #main-nav {
     font-family:Arial, Verdana;
-    background-color:#d19100;
-    margin:0 .9em;
+    background-color:#869018;
+    margin:0 .7em;
     height:35px;
-    box-shadow:3px 3px 8px #330000;
+    box-shadow:3px 3px 7px #330000;
 }
 
 #main-nav a:link, a:visited {
@@ -99,8 +105,8 @@ header h1 {
 }
 
 #main-nav a:hover, a:active {
-    background-color:#96373f;
-    color:#d19100;
+    background-color:#93330e;
+    color:#827e09;
 }
 
 nav ul {
@@ -420,7 +426,7 @@ footer a {
         top:.8em;
         right:.8em;
         font-size:1em;
-        background-color:#d19100;
+        background-color:#869018;
         color:#544e46;
         border-radius:6px;
         padding:6px 8px;
