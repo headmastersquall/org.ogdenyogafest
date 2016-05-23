@@ -365,10 +365,6 @@ footer a:hover {
     padding:20px 1.4em;
 }
 
-#mobile {
-    display:none;
-}
-
 footer h3 {
     color:#eeeeee;
     margin:5px 0 0 0;
@@ -470,18 +466,6 @@ footer a {
         width:100%;
         text-align:center;
         padding:20px 0;
-    }
-
-    #mobile {
-        display:inline;
-    }
-
-    #mobile a {
-        color:#d19100;
-    }
-
-    #desktop {
-        display:none;
     }
 
     .footer-group {
