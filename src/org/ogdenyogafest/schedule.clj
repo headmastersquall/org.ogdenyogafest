@@ -383,15 +383,15 @@
    {:id "e42e2fbf"
     :day :day-2
     :time "10:40 – 12:10"
-    :name "Back bending Workshop"
+    :name "The Arts and Crafts of Back Bending"
     :comment ""
     :teacher-id "b348686b"
     :room r119
     :description (str
-    	          "The Arts and Crafts of Back Bending: We will be exploring "
-    	          "the foundational movements that help to extend the spine. "
-    	          "Then, we will do our best to put those movements into "
-    	          "practice by playing with some backbends.")}
+    	          "We will be exploring the foundational movements that "
+    	          "help to extend the spine. Then, we will do our best "
+    	          "to put those movements into practice by playing with "
+    	          "some backbends.")}
 
    {:id "f3b1e0b8"
     :day :day-2
