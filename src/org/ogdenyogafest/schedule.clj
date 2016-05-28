@@ -1,7 +1,7 @@
 (ns org.ogdenyogafest.schedule)
 
-(def days {:day-1 "Friday, October 9th"
-           :day-2 "Saturday, October 10th"})
+(def days {:day-1 "Friday, September 16th"
+           :day-2 "Saturday, September 17th"})
 
 (def studio-a "Studio A")
 (def studio-b "Studio B")
